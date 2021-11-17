@@ -1,6 +1,7 @@
 # ⭐️ Dalgona Swap in Testnet
 
-This project was made by forking [Pancake Swap](https://github.com/pancakeswap/pancake-swap-interface-v1).
+This project was made by forking [Pancake Swap](https://github.com/pancakeswap/pancake-swap-interface-v1).<br>
+It works on the Binance Smart Chain Testnet([How to connect BSC Testnet in Metamask](https://docs.binance.org/smart-chain/wallet/metamask.html)).
 
 ## Setup & Run
 ### 1. Compile
