@@ -17,7 +17,7 @@ const Menu: React.FC = (props) => {
   const priceData = useGetPriceData()
   let cakePriceUsd = 0;
   try {
-    cakePriceUsd = priceData ? Number(priceData.data['0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82'].price ?? 0) : 0
+    cakePriceUsd = priceData ? Number(priceData.data['0xCF894cf0bBC64Ae84208D826dF99C247D15B7018'].price ?? 0) : 0
   } catch (e) {
     // Ignore
   }

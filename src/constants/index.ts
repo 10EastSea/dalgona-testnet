@@ -1,18 +1,18 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0xCc7aDc94F3D80127849D2b41b6439b7CF1eB4Ae0'
+export const ROUTER_ADDRESS = '0x4Ba5E9311dC389d8daFa0586792c6d7017B71971'
 
 // a list of tokens by chain
 type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const CAKE = new Token(ChainId.BSCTESTNET, '0xB8F5B50ed77596b5E638359d828000747bb3dd89', 18, 'CAKE', 'PancakeSwap Token')
-export const WBNB = new Token(ChainId.BSCTESTNET, '0x0dE8FCAE8421fc79B29adE9ffF97854a424Cad09', 18, 'WBNB', 'Wrapped BNB')
-export const DAI = new Token(ChainId.BSCTESTNET, '0x3Cf204795c4995cCf9C1a0B3191F00c01B03C56C', 18, 'DAI', 'Dai Stablecoin')
-export const BUSD = new Token(ChainId.BSCTESTNET, '0xE0dFffc2E01A7f051069649aD4eb3F518430B6a4', 18, 'BUSD', 'Binance USD')
-export const USDT = new Token(ChainId.BSCTESTNET, '0x7afd064DaE94d73ee37d19ff2D264f5A2903bBB0', 18, 'USDT', 'Tether USD')
-export const ETH = new Token(ChainId.BSCTESTNET, '0xE282a15DBad45e3131620C1b8AF85B7330Cb3b4B', 18, 'ETH', 'Binance-Peg Ethereum Token')
+export const CAKE = new Token(ChainId.BSCTESTNET, '0xCF894cf0bBC64Ae84208D826dF99C247D15B7018', 18, 'DGN', 'DGN Token')
+export const WBNB = new Token(ChainId.BSCTESTNET, '0xf6219e90c22cd1517535FC4F2f7E71B043792B51', 18, 'WBNB', 'Wrapped BNB')
+export const DAI = new Token(ChainId.BSCTESTNET, '0xdd5c7bFD6D7f681b1C29Bd41854cD4Ad5BB9A663', 18, 'DAI', 'Dai Stablecoin')
+export const BUSD = new Token(ChainId.BSCTESTNET, '0xfC75E4C492E73922C8f9D2e07013945C248033D8', 18, 'BUSD', 'Binance USD')
+export const USDT = new Token(ChainId.BSCTESTNET, '0xf5FE2Ef051222C8D83b218faC4d041d90cb6B377', 18, 'USDT', 'Tether USD')
+export const ETH = new Token(ChainId.BSCTESTNET, '0x11f0160E24d4523b5124149d0833dBdb5deC3A9d', 18, 'ETH', 'Binance-Peg Ethereum Token')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
